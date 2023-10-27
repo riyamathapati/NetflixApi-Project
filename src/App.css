@@ -1,0 +1,65 @@
+#netfilxsbgimg{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./Images/netfilxbgimg.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar-brand  img{
+    width: 180px;
+
+}
+.forcolor{
+    background-color:#E50914 ;
+    color: white;
+}
+.forcolor:hover{
+    background-color: #E50914;
+    color: white;
+}
+.forcolortext{
+    color: #E50914;
+}
+.card{
+    width: 18rem;
+  
+    border: 2px solid #E50914;
+    box-shadow: 2px 2px #E50914;
+    /* background-color: black;
+    color: white!important; */
+    /* height: 50rem; */
+}
+.card ul{
+    background-color: black;
+    color: white!important;
+}
+.forimgwidth img{
+   
+    width: 18rem;
+    height: 18rem;
+
+
+}
+
+@media only screen and (min-width:576px){
+    .card{
+        width: 25rem;
+        height: 650px;
+    }
+    .forimgwidth img{
+        width: 25rem;
+        height: 20rem;
+    
+    
+    }
+
+
+}
+.forimgwidth img:hover{
+    transform: scale(0.9);
+    border: 5px solid #E50914;
+    box-shadow: 2px 2px #E50914;
+     transition: all 0.4s ease-in-out;
+}
+
